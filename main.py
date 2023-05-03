@@ -7,8 +7,8 @@ from melhor_investimento import calcula_melhor_investimento
 
 if __name__ == "__main__":
     valor_investido = float(input("Digite o valor que será investido: R$"))
-    data_inicial = input("Informe a data inicial: ")
-    data_final = input("Informe a data final: ")
+    data_inicial = input("Informe a data inicial: (exemplo: 01-02-2003) ")
+    data_final = input("Informe a data final: (exemplo: 01-02-2003) ")
     taxa_prefixado = float(input("Digite o valor da taxa prefixada: "))
     spread_selic = float(input("inforne a taxa do spread selic: "))
     taxa_selic = float(input('Informe a taxa selic: '))
